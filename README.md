@@ -81,9 +81,3 @@ nav ul li a.active {
   background-color: #f4f4f4;
 }
 
-
-Este exemplo cria uma página inicial simples para o website da TechDesign, com um cabeçalho, uma seção hero e um rodapé. 
-Você pode expandir este código e adicionar mais páginas e estilos para completar o projeto do website. 
-Certifique-se de adicionar mais páginas (como "sobre.html", "portfolio.html" e "contato.html") e 
-estilos conforme necessário para completar o projeto.
-  
