@@ -1,40 +1,89 @@
 # Tech-Design
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TechDesign - Início</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>TechDesign</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Início</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="portfolio.html">Portfólio</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <section class="hero">
-    <div class="container">
-      <h2>Bem-vindo à TechDesign</h2>
-      <p>Somos uma empresa de design focada em criar experiências digitais incríveis.</p>
-      <a href="portfolio.html" class="btn">Veja nosso portfólio</a>
-    </div>
-  </section>
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 TechDesign. Todos os direitos reservados.</p>
-    </div>
-  </footer>
-</body>
-</html>
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #f4f4f4;
+}
+
+
+Este exemplo cria uma página inicial simples para o website da TechDesign, com um cabeçalho, uma seção hero e um rodapé. 
+Você pode expandir este código e adicionar mais páginas e estilos para completar o projeto do website. 
+Certifique-se de adicionar mais páginas (como "sobre.html", "portfolio.html" e "contato.html") e 
+estilos conforme necessário para completar o projeto.
+  
